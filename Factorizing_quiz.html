@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorization Quiz</title>
+    <link rel="stylesheet" href="css/styles-fact-quiz.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>YMath Quizzes</h1>
+            <a href="home.html" class="home-button">
+                <span class="home-icon">&#8962;</span>
+                <span class="home-text">Home</span>
+            </a>
+        </div>
+    </header>
+    <div class="container">
+
+        <h1>Factorization Quiz</h1>
+        <h2>Level : <div id="Level" style="display: inline;"></div></h2>
+        <div id="current_marks" class ="right-align"></div>
+        <div class="Qcontainer"><div id="current_question"></div> Factorize : <div id="A" style="display: inline;"></div>x<sup>2</sup> <div id="question"></div></div>
+        <input type="text" id="userAnswer" placeholder="(x+a)(x+b)" pattern="[xX0-9()+-]*">
+        <button onclick="checkAnswer()">Check Answer</button>
+        <div class="progress-bar-container">
+            <div class="progress-bar-1" id="progressBar-1"></div>
+          </div>
+
+
+    </div>
+    <!-- Popup Modals -->
+    <div id="popupModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <p id="popupMessage"></p>
+            <button onclick="closePopup()">Next Question</button>
+        </div>
+    </div>
+    <div id="popupModal2" class="modal">
+        <div class="modal-content-incorrect">
+            <span class="close" onclick="closePopup2()">&times;</span>
+            <p id="popupMessage2"></p>
+            <div class="flex-container">
+                <button onclick="closePopup2()">Next Question</button>
+                <button onclick="restart()">Restart</button>
+              </div>
+        </div>
+    </div>
+    <script src="js/quiz_fact_script.js"></script>
+
+</body>
+
+<footer>
+    <p>&copy; 2024 YMath Quizzes. All rights reserved.</p>
+</footer>
+
+</html>

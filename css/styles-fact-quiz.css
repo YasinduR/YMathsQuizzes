@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e9f0; /* Light blueish background color */
+    color: #333; /* Dark text color */
+
+}
+.right-align {    /* class for right aligned elements */
+    text-align: right; /* Aligns the marks to the right */
+    padding-right: 20px;
+    font-size: 24px
+}
+
+
+header {
+    background-color: #4a90e2; /* Blue header background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    
+  }
+  
+  header h1 {
+    margin: 0;
+    text-align: left;
+  }
+
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.home-button {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.home-icon {
+    font-size: 25px;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.home-text {
+    font-size: 25px;
+    color: #fff;
+}
+
+
+.container {
+    text-align: center; /* Aligns everything in the container to the center */
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #d5dde3;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(38, 5, 113, 0.1);
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.Qcontainer div {
+    display: inline-block;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #6a92bf;
+    position: fixed;
+    bottom: 30%; /* Adjust the percentage to position the modal */
+    left: 35%; /* Add spacing from the left */
+    right: 35%; /* Add spacing from the right */
+    padding: 20px;
+    border: 5px solid #4c34b8;
+    overflow-y: auto;
+    border-radius: 15px; /* Add border-radius for curved corners */
+}
+
+.modal-content-incorrect {
+    background-color: #bf6a6a;
+    position: fixed;
+    bottom: 30%; /* Adjust the percentage to position the modal */
+    left: 35%; /* Add spacing from the left */
+    right: 35%; /* Add spacing from the right */
+    padding: 20px;
+    border: 5px solid #b83434;
+    overflow-y: auto;
+    border-radius: 15px; /* Add border-radius for curved corners */
+}
+
+.model-correct-answer {
+    background-color: #6a92bf;
+    border: 5px solid #4c34b8;
+}
+.model-incorrect-answer {
+    background-color: #bf6a6a;
+    border: 5px solid #b83434;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.progress-bar-container {
+    width: 100%;
+    height: 20px; /* Adjust height as needed */
+    background-color: #fdfdfd; /* Background color of the progress bar container */
+    border-radius: 5px; /* Add rounded corners */
+    margin-bottom: 10px; /* Add margin for spacing */
+  }
+  
+  .progress-bar-1 {
+    height: 100%;
+    width: 0%; /* Set initial progress to 0% */
+    background-color: #5b339f; /* Color of the progress bar */
+    border-radius: 5px; /* Add rounded corners */
+    transition: width 0.3s ease-in-out; /* Add smooth transition effect */
+  }
+
+  .flex-container {
+    display: flex;
+    
+  }
+  .flex-container > div {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  footer {
+    background-color: #4a90e2; /* Blue footer background color */
+    color: #fff; /* White text color */
+    text-align: right;
+    padding-right: 120px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
