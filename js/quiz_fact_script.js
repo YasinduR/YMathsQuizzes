@@ -115,12 +115,6 @@ function generateQuestion() { // Generate questions
     document.getElementById('question').textContent = question ;
     document.getElementById('A').textContent = Adjust_A(c*d);
 
-    //document.getElementById('answer1').textContent = '(x'+((a>0) ? "+" : "-")+Math.abs(a)+')'; 
-    //document.getElementById('answer2').textContent = '(x'+((b>0) ? "+" : "-")+Math.abs(b)+')'; 
-  
-    //auto_answer();// provide correct answer to testing purpose
-  /// remove this later
-
 
 }
 
@@ -378,12 +372,6 @@ function CommonFactors(num1, num2) { // FIND common factor  from  2 check whethe
 
     return lcf
 }
-
-
-
-
-
-
 
 
 

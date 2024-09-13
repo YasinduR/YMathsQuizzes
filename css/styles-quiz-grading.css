@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e9f0; /* Light blueish background color */
+    color: #333; /* Dark text color */
+
+}
+header {
+    background-color: #4a90e2; /* Blue header background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+}
+  
+header h1 {
+    text-align: left;
+    margin: 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.home-button {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.home-icon {
+    font-size: 25px;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.home-text {
+    font-size: 25px;
+    color: #fff;
+}
+
+.container {
+    text-align: center; /* Aligns everything in the container to the center */
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #d5dde3;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(38, 5, 113, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+/* Star styles */
+.star {
+    font-size: 24px; /* Adjust font size as needed */
+    color: gold; /* Color of the stars */
+     /* Display stars inline display: inline-block;*/
+}
+
+table {
+    width: 25%;
+    border-collapse: collapse;
+    margin: 20px auto; /* Center the table */
+}
+table, th, td {
+    border: 1px solid rgb(62, 7, 241);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+
+footer {
+    background-color: #4a90e2; /* Blue footer background color */
+    color: #fff; /* White text color */
+    text-align: right;
+    padding-right: 120px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+

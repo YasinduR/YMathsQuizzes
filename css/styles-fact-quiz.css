@@ -183,3 +183,49 @@ button:hover {
     bottom: 0;
     width: 100%;
   }
+
+
+  .image-container img {/*For image container */
+    display: block;
+    width: 30%;
+    margin: 20px auto; /* Adjusts the space between images */
+    border: 2px solid #4001bf; /* Adds a border around the images */
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px; /* Adds padding to the bottom */
+}
+
+.image-container figure {
+    width: 100%;
+    max-width: 1600px; /* Maximum width of the image and caption */
+    margin: 20px 0; /* Space between figures */
+    text-align: center; /* Center align captions */
+}
+
+.image-container figcaption {
+    margin-top: 8px; /* Space between the image and caption */
+    /*font-style: italic; /* Optional styling for captions */
+   /* color: #555; /* Optional styling for captions */
+   font-size: 18px
+}
+.Description{
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    padding-left: 70px;
+    padding-right: 40px; 
+    font-size:  20px;
+    
+ }
+
+ .AnswerBox {
+    display: flex;
+    gap: 10px; /* Space between inputs */
+}
+
+.AnswerBox input {
+    flex: 1; /* Inputs will take up equal space */
+}

@@ -1,7 +1,12 @@
-function passlevel(level) {
+function passlevel_q1(level) {
     sessionStorage.setItem('Level', level);
     window.location.href = 'Factorizing_quiz.html'
 }
+function passlevel_q2(level) {
+    sessionStorage.setItem('Level', level);
+    window.location.href = 'Quadric_Equation_Quiz.html'
+}
+
 
 function Contact(){
     document.getElementById("topic").innerHTML = "Contact us"
